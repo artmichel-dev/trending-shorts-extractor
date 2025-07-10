@@ -1,5 +1,5 @@
 // main.js
-const API_KEY = 'YOUR-API-KEY'; 
+const API_KEY = 'YOUR-API-KEY'; // Agrega tu ID proporcionado por Google Console
 let startTime;
 let timeInterval;
 
