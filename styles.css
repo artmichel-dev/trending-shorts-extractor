@@ -1,0 +1,47 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+.loading {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 40%, #38bdf8 100%);
+}
+
+.glass-morphism {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+.glass-morphism-dark {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: rgba(30, 58, 138, 0.45);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+.shimmer {
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.12), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+.glow {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+}
+
+.glow-hover:hover {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.35);
+} 
